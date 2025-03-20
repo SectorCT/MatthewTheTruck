@@ -17,7 +17,7 @@ def osrm_trip_result(data):
         coordinates = [f"{loc['longitude']},{loc['latitude']}" for loc in data['locations']]
         coordinates_str = ";".join(coordinates)
         profile = "car"
-        base_url = f"http://router.project-osrm.org/trip/v1/{profile}/{coordinates_str}?steps=false&geometries=geojson&annotations=false"
+        base_url = f"http://router.project-osrm.org/trip/v1/{profile}/{coordinates_str}?steps=false&geometries=geojson&annotations=false&overview=full"
         response = requests.get(base_url)
         if response.status_code == 200:
             return response.json()
@@ -83,6 +83,6 @@ def osrm_trip_result(data):
 
     osrm_response = get_trip_service(data)
     filtered_routes = extract_leg_routes(osrm_response)
-    return(json.dumps(filtered_routes, indent=4))
+    return(filtered_routes)
 
 print(osrm_trip_result(packages))
