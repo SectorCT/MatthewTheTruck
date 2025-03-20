@@ -2,26 +2,13 @@ import numpy as np
 from sklearn.cluster import DBSCAN
 import json
 
-def cluster_locations(data, eps_km=1.5):
-    """
-    Cluster locations using DBSCAN based on their latitude and longitude.
-
-    Parameters:
-      data (dict): A dictionary with key "locations", where the value is a list of locations.
-                   Each location should be a dict containing at least "latitude" and "longitude".
-      eps_km (float): Distance threshold in kilometers for clustering.
-
-    Returns:
-      list: A list of zones. Each zone is a dict with a "zone" key (cluster label)
-            and "locations" key (list of locations belonging to that cluster).
-    """
+def cluster_locations(data, eps_km):
     # Extract coordinates and convert to a NumPy array
     coords = np.array([[loc["latitude"], loc["longitude"]] for loc in data.get("locations", [])])
     
     # Convert degrees to radians for the haversine metric
     coords_rad = np.radians(coords)
     
-    # Earth's radius in kilometers
     earth_radius = 6371.0
     
     # Convert eps from kilometers to radians
@@ -47,9 +34,8 @@ def cluster_locations(data, eps_km=1.5):
     
     return zones
 
-# Example usage:
+
 if __name__ == "__main__":
-    # Example JSON data with locations
     data = {
         "locations": [
             {"name": "Alexander Nevsky Cathedral", "latitude": 42.6957, "longitude": 23.3320},
