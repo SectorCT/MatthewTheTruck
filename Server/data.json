@@ -1,181 +1,164 @@
-{"code": "Ok", "trips": [
-        {"geometry": {"coordinates": [
-                    [
-                        23.318939,
-                        42.686001
-                    ],
-                    [
-                        23.320709,
-                        42.685793
-                    ],
-                    [
-                        23.321055,
-                        42.685468
-                    ],
-                    [
-                        23.320514,
-                        42.683092
-                    ],
-                    [
-                        23.321778,
-                        42.67847
-                    ],
-                    [
-                        23.322239,
-                        42.674693
-                    ],
-                    [
-                        23.321262,
-                        42.672173
-                    ],
-                    [
-                        23.317791,
-                        42.665908
-                    ],
-                    [
-                        23.31754,
-                        42.664871
-                    ],
-                    [
-                        23.31398,
-                        42.66636
-                    ],
-                    [
-                        23.311972,
-                        42.665857
-                    ],
-                    [
-                        23.3104,
-                        42.665786
-                    ],
-                    [
-                        23.311972,
-                        42.665857
-                    ],
-                    [
-                        23.313864,
-                        42.666359
-                    ],
-                    [
-                        23.313798,
-                        42.672705
-                    ],
-                    [
-                        23.313072,
-                        42.673041
-                    ],
-                    [
-                        23.312016,
-                        42.674219
-                    ],
-                    [
-                        23.31309,
-                        42.674425
-                    ],
-                    [
-                        23.319732,
-                        42.677888
-                    ],
-                    [
-                        23.321778,
-                        42.67847
-                    ],
-                    [
-                        23.320807,
-                        42.683338
-                    ],
-                    [
-                        23.321247,
-                        42.685848
-                    ],
-                    [
-                        23.32831,
-                        42.687621
-                    ],
-                    [
-                        23.333924,
-                        42.692214
-                    ],
-                    [
-                        23.334314,
-                        42.69314
-                    ],
-                    [
-                        23.332043,
-                        42.694088
-                    ],
-                    [
-                        23.332606,
-                        42.694888
-                    ],
-                    [
-                        23.331991,
-                        42.695584
-                    ],
-                    [
-                        23.332606,
-                        42.694888
-                    ],
-                    [
-                        23.332043,
-                        42.694088
-                    ],
-                    [
-                        23.329333,
-                        42.695169
-                    ],
-                    [
-                        23.327504,
-                        42.69316
-                    ],
-                    [
-                        23.323516,
-                        42.690674
-                    ],
-                    [
-                        23.323129,
-                        42.688618
-                    ],
-                    [
-                        23.319008,
-                        42.688985
-                    ],
-                    [
-                        23.318524,
-                        42.687592
-                    ]
-                ], "type": "LineString"
-            }, "legs": [
-                {"steps": [], "summary": "", "weight": 396.2, "duration": 393.6, "distance": 3219.8
-                },
-                {"steps": [], "summary": "", "weight": 570.9, "duration": 548.3, "distance": 4837.7
-                },
-                {"steps": [], "summary": "", "weight": 261.1, "duration": 238.5, "distance": 1896.2
-                },
-                {"steps": [], "summary": "", "weight": 152, "duration": 152, "distance": 1145
-                }
-            ], "weight_name": "routability", "weight": 1380.199999999, "duration": 1332.4, "distance": 11098.7
-        }
-    ], "waypoints": [
-        {"waypoint_index": 0, "trips_index": 0, "hint": "i5lWiv___38EAAAAQQAAAMYCAACOAAAABpBOQDhUH0KTjexDeNi8QgQAAABBAAAAxgIAAI4AAACgDgEAm9FjATFWiwJ00WMBaFWLAg0ALwa_BJxR", "distance": 22.556054282, "name": "бул. Ген. Скобелев", "location": [
+[
+    {
+        "waypoint_index": 1,
+        "trips_index": 0,
+        "route": [
+            [
                 23.318939,
                 42.686001
-            ]
-        },
-        {"waypoint_index": 2, "trips_index": 0, "hint": "-XsHlP17B5Q0AAAAAAAAABQBAADPAAAA0YAtQQAAAAAAf2VCKLMsQhoAAAAAAAAAiQAAAGgAAACgDgEAlwRkAaB7iwKgBGQBFHyLAgQArwG_BJxR", "distance": 12.907123315, "name": "", "location": [
-                23.331991,
-                42.695584
-            ]
-        },
-        {"waypoint_index": 3, "trips_index": 0, "hint": "pBlQgK0sYIAxAAAAEQAAAAAAAAAFAAAA-GpeQun-kUEAAAAAR8i-QDEAAAARAAAAAAAAAAUAAACgDgEA_M9jAWhciwLY0WMBDFyLAgAALwy_BJxR", "distance": 40.333707001, "name": "бул. Витоша", "location": [
-                23.318524,
-                42.687592
-            ]
-        },
-        {"waypoint_index": 1, "trips_index": 0, "hint": "vUQxh9n834uSAAAAaAAAAJ4CAACLAAAA1ml0QqLcK0IbZ4tDhgtpQpIAAABoAAAAngIAAIsAAACgDgEAQLBjAToHiwLcr2MB2AiLAhIA_wS_BJxR", "distance": 46.714548272, "name": "Елиезер Папо", "location": [
+            ],
+            [
+                23.321055,
+                42.685468
+            ],
+            [
+                23.320514,
+                42.683092
+            ],
+            [
+                23.322239,
+                42.674693
+            ],
+            [
+                23.321262,
+                42.672173
+            ],
+            [
+                23.31754,
+                42.664871
+            ],
+            [
+                23.31398,
+                42.66636
+            ],
+            [
                 23.3104,
                 42.665786
             ]
-        }
-    ]
-}
+        ],
+        "hint": "vUQxh9n834uSAAAAaAAAAJ4CAACLAAAA1ml0QqLcK0IbZ4tDhgtpQpIAAABoAAAAngIAAIsAAACgDgEAQLBjAToHiwLcr2MB2AiLAhIA_wS_BJxR",
+        "distance": 46.714548272,
+        "name": "\u0415\u043b\u0438\u0435\u0437\u0435\u0440 \u041f\u0430\u043f\u043e",
+        "location": [
+            23.3104,
+            42.665786
+        ],
+        "leg_duration": 393.6
+    },
+    {
+        "waypoint_index": 2,
+        "trips_index": 0,
+        "route": [
+            [
+                23.3104,
+                42.665786
+            ],
+            [
+                23.313864,
+                42.666359
+            ],
+            [
+                23.312985,
+                42.656788
+            ],
+            [
+                23.328008,
+                42.656496
+            ],
+            [
+                23.327959,
+                42.655895
+            ],
+            [
+                23.333166,
+                42.653102
+            ],
+            [
+                23.33296,
+                42.652016
+            ],
+            [
+                23.331433,
+                42.652049
+            ]
+        ],
+        "hint": "rwZAhcUGQIUmAAAAIQAAAEUAAAAAAAAANquBQWArWEEJa-VBAAAAACYAAAAhAAAARQAAAAAAAACgDgEAaQJkAZHRigJIAmQBxNGKAgIATw-_BJxR",
+        "distance": 6.278041695,
+        "name": "\u0410\u043a\u0430\u0434. \u0414\u0438\u043c\u043e \u0412\u0435\u043b\u0435\u0432",
+        "location": [
+            23.331433,
+            42.652049
+        ],
+        "leg_duration": 398.7
+    },
+    {
+        "waypoint_index": 3,
+        "trips_index": 0,
+        "route": [
+            [
+                23.331433,
+                42.652049
+            ],
+            [
+                23.33296,
+                42.652016
+            ],
+            [
+                23.333901,
+                42.655984
+            ],
+            [
+                23.336464,
+                42.657434
+            ],
+            [
+                23.337854,
+                42.670227
+            ],
+            [
+                23.336175,
+                42.672502
+            ],
+            [
+                23.345177,
+                42.680269
+            ],
+            [
+                23.347798,
+                42.683548
+            ],
+            [
+                23.349245,
+                42.684235
+            ],
+            [
+                23.347805,
+                42.683381
+            ],
+            [
+                23.334314,
+                42.69314
+            ],
+            [
+                23.332043,
+                42.694088
+            ],
+            [
+                23.332606,
+                42.694888
+            ],
+            [
+                23.331991,
+                42.695584
+            ]
+        ],
+        "hint": "-XsHlP17B5Q0AAAAAAAAABQBAADPAAAA0YAtQQAAAAAAf2VCKLMsQhoAAAAAAAAAiQAAAGgAAACgDgEAlwRkAaB7iwKgBGQBFHyLAgQArwG_BJxR",
+        "distance": 12.907123315,
+        "name": "",
+        "location": [
+            23.331991,
+            42.695584
+        ],
+        "leg_duration": 644.3
+    }
+]
